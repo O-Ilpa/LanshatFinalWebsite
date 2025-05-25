@@ -15,7 +15,7 @@ export default defineConfig({
     },
     proxy: {
       "/api": {
-        target: "http://localhost:5000",
+        target: "http://api.lanshat.com",
         changeOrigin: true,
         secure: false,
       },
